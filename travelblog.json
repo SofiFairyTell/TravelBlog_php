@@ -1,0 +1,60 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"travelblog"},
+{"type":"table","name":"contact_store","database":"travelblog","data":
+[
+{"contact_id":"1","contact_name":"Sofi Fairy Tell","contact_phone":"+9999999","contact_phonework":"56-99-00","contact_mail":"fairytellsblog@gmail.com"},
+{"contact_id":"2","contact_name":"Digital Assintem","contact_phone":"+9999999","contact_phonework":"90-90-90","contact_mail":"Digital@gmail.com"},
+{"contact_id":"3","contact_name":"Major Grom","contact_phone":"+12345678","contact_phonework":"56-88-22","contact_mail":"bublecomics@piter.ru"}
+]
+}
+,{"type":"table","name":"img_store","database":"travelblog","data":
+[
+{"img_id":"1","img_slide":"prd1","img_name":"plan","img_path":".\/img\/lifehacks\/plan.jpg","img_paragraph":"<strong>Сняряжение<\/strong><span><ul><li>Документы<\/li><li>Деньги<\/li><li>Еда<\/li><li> Аптечка <\/li><\/ul><\/span>"},
+{"img_id":"2","img_slide":"prd1","img_name":"medicinebag","img_path":".\/img\/lifehacks\/medicinebag.jpg","img_paragraph":"В аптечке должны быть лекарства первой необходимости. Например: обезболивающее, спирт и йод."},
+{"img_id":"3","img_slide":"prd1","img_name":"document","img_path":".\/img\/lifehacks\/document.jpg","img_paragraph":"Среди документов всегда паспорт и билеты."},
+{"img_id":"4","img_slide":"prd1","img_name":"food","img_path":".\/img\/lifehacks\/food.jpeg","img_paragraph":"Для перекуса подойдет вода, сухое печенье."},
+{"img_id":"5","img_slide":"prd2","img_name":"map","img_path":".\/img\/lifehacks\/map.jpg","img_paragraph":"<strong>Понадобиться следующий набор:<\/strong><span><ul><li> Интернет <\/li><li> Карта <\/li><li> Атлас автодорог <\/li><li> Блокнот <\/li><li> Знающий дорогу<\/li><\/ul><\/span>"},
+{"img_id":"6","img_slide":"prd2","img_name":"roadmap","img_path":".\/img\/lifehacks\/roadmap.jpg","img_paragraph":"Всегда бери с собой карту. Это важно."},
+{"img_id":"7","img_slide":"prd2","img_name":"friend","img_path":".\/img\/lifehacks\/friend.jpeg","img_paragraph":"Верный друг это всегда очень важно,<br> особенно если собрался в дальнюю дорогу. <strong>ВАЖНО!<\/strong><br>Хотя бы один должен знать куда Вы идёте."},
+{"img_id":"8","img_slide":"sld","img_name":"slide3","img_path":"..\/img\/photo3.jpg","img_paragraph":"Путешествие это всегда приятное дело, если есть компания. <br>Мы команда исследователей,<br>фотографов <br>и просто хороших людей."},
+{"img_id":"9","img_slide":"sld","img_name":"slide2","img_path":"..\/img\/photo2.jpg","img_paragraph":"Открыты для открытий. "},
+{"img_id":"10","img_slide":"sld","img_name":"slide1","img_path":"..\/img\/photo1.jpg","img_paragraph":"Наше кредо: <br>Видеть необычное в обычном. "}
+]
+}
+,{"type":"table","name":"pages_store","database":"travelblog","data":
+[
+{"pages_id":"1","pages_name":"Главная"},
+{"pages_id":"2","pages_name":"Лайфхаки"},
+{"pages_id":"3","pages_name":"Коротко о нас"},
+{"pages_id":"4","pages_name":"Контакты"},
+{"pages_id":"5","pages_name":"Авторизация"},
+{"pages_id":"6","pages_name":"Регистрация"},
+{"pages_id":"7","pages_name":"Панель администратора"},
+{"pages_id":"8","pages_name":"Работа с контентом"},
+{"pages_id":"9","pages_name":"Редактирование контента"}
+]
+}
+,{"type":"table","name":"upload_store","database":"travelblog","data":
+[
+{"upload_id":"29","upload_imgname":"2b86600ed62a45c96059ab580fef06c1.jpg","upload_path":"C:\/OpenServer\/domains\/www\/uploaded_files\/2b86600ed62a45c96059ab580fef06c1.jpg","upload_user":"редактор"},
+{"upload_id":"30","upload_imgname":"4f969de211249ac02e94203.jpg","upload_path":"C:\/OpenServer\/domains\/www\/uploaded_files\/4f969de211249ac02e94203b46e43f83.jpg","upload_user":"автор"},
+{"upload_id":"31","upload_imgname":"1cb535fd1e0c462b8807ed533d87f887.jpg","upload_path":"C:\/OpenServer\/domains\/www\/uploaded_files\/1cb535fd1e0c462b8807ed533d87f887.jpg","upload_user":"поэт"},
+{"upload_id":"32","upload_imgname":"87c03f39fc33fd52aab2a21b7f9db3e5.jpg","upload_path":"C:\/OpenServer\/domains\/www\/uploaded_files\/87c03f39fc33fd52aab2a21b7f9db3e5.jpg","upload_user":"поэт"},
+{"upload_id":"33","upload_imgname":"5e7994a7fd8d660f2bddce2e3c96ade0.jpg","upload_path":"C:\/OpenServer\/domains\/www\/uploaded_files\/5e7994a7fd8d660f2bddce2e3c96ade0.jpg","upload_user":"редактор"}
+]
+}
+,{"type":"table","name":"user_store","database":"travelblog","data":
+[
+{"user_id":"3","user_name":"поэт","user_email":"fairytellsblog@gmail.com","user_password":"259c436027c3912edc8df67bbe8e3984","user_role":"manager"},
+{"user_id":"4","user_name":"редактор","user_email":"redactor@mail.ru","user_password":"7ac7d3a1e404c85f725f442e4ec4b363","user_role":"admin"},
+{"user_id":"5","user_name":"автор","user_email":"anonim@digital-email.com","user_password":"3429a9c53c0dfc25421bdc1b89555b26","user_role":"manager"},
+{"user_id":"8","user_name":"Елена","user_email":"dfff@dfdf.com","user_password":"e242f36f4f95f12966da8fa2efd59992","user_role":"ordinary"},
+{"user_id":"9","user_name":"абв","user_email":"modedar487lidte.com","user_password":"202cb962ac59075b964b07152d234b70","user_role":"ordinary"},
+{"user_id":"10","user_name":"бвг","user_email":"modedar487@lidte.com","user_password":"d41d8cd98f00b204e9800998ecf8427e","user_role":"ordinary"},
+{"user_id":"13","user_name":"редактор","user_email":"modedar487@lidte.com","user_password":"1d0258c2440a8d19e716292b231e3190","user_role":"ordinary"},
+{"user_id":"14","user_name":"Елена","user_email":"modedar487@lidte.com","user_password":"259c436027c3912edc8df67bbe8e3984","user_role":"ordinary"},
+{"user_id":"16","user_name":"Рооооо","user_email":"modedar487@lidte.com","user_password":"faafda66202d234463057972460c04f5","user_role":"ordinary"}
+]
+}
+]
